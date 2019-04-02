@@ -1,5 +1,5 @@
 # AppDevelopment-Swift4-Student
-This repository keeps track of my progress through official "App Development with Swift" textbook.
+This repository keeps track of my progress through the official "App Development with Swift" textbook.
 
 This textbook course is free and available in iTunes:
 * Link: [iTunes Materials](https://itunes.apple.com/us/book/app-development-with-swift/id1219117996?mt=11)
