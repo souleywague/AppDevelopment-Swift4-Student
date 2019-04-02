@@ -87,3 +87,11 @@ Each lesson starts with a brief indroduction to the concept, a set of learning o
 * Working the Web HTTP and URL Session 
 * Working with the Web JSON 
 * Working with the Web Concurrency 
+
+## Unit 6: Prototyping and Project Planning
+
+### Lessons
+
+* App Personality 
+* The Design Cycle 
+* Project Planning
