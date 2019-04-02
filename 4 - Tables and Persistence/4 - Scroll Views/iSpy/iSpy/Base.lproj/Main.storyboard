@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iSpy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Gv-35-iFO">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cristiano_Ronaldo" translatesAutoresizingMaskIntoConstraints="NO" id="xtv-lu-yFo">
+                                        <rect key="frame" x="0.0" y="0.0" width="922" height="1062"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="xtv-lu-yFo" secondAttribute="bottom" id="8co-F3-nkD"/>
+                                    <constraint firstItem="xtv-lu-yFo" firstAttribute="leading" secondItem="1Gv-35-iFO" secondAttribute="leading" id="A1i-mr-hIX"/>
+                                    <constraint firstAttribute="trailing" secondItem="xtv-lu-yFo" secondAttribute="trailing" id="MKz-yg-hLM"/>
+                                    <constraint firstItem="xtv-lu-yFo" firstAttribute="top" secondItem="1Gv-35-iFO" secondAttribute="top" id="cJf-Mp-mQ2"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1Gv-35-iFO" secondAttribute="bottom" id="Ptv-HG-fWL"/>
+                            <constraint firstItem="1Gv-35-iFO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="SCK-hD-aYl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1Gv-35-iFO" secondAttribute="trailing" id="c0Z-yX-3xX"/>
+                            <constraint firstItem="1Gv-35-iFO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="xOd-9P-4oN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="xtv-lu-yFo" id="cSK-vJ-kD5"/>
+                        <outlet property="scrollView" destination="1Gv-35-iFO" id="Wgp-mW-HPl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="57.971014492753625" y="20.758928571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Cristiano_Ronaldo" width="922" height="1062"/>
+    </resources>
+</document>
